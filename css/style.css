@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Light.woff"), local("Roboto-Light.woff"), url("../fonts/Roboto/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Light.woff") format("woff");
+  src: local("Roboto Light.woff"), local("Roboto-Light.woff"), url("../../fonts/Roboto/Roboto-Light.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff") format("woff");
+  src: local("Roboto Regular"), local("Roboto-Regular"), url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Medium.woff"), local("Roboto-Medium.woff"), url("../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Medium.woff") format("woff");
+  src: local("Roboto Medium.woff"), local("Roboto-Medium.woff"), url("../../fonts/Roboto/Roboto-Medium.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Bold.woff"), local("Roboto-Bold.woff"), url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Bold.woff") format("woff");
+  src: local("Roboto Bold.woff"), local("Roboto-Bold.woff"), url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: "Roboto";
-  src: local("Roboto Black.woff"), local("Roboto-Black.woff"), url("../fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto/Roboto-Black.woff") format("woff");
+  src: local("Roboto Black.woff"), local("Roboto-Black.woff"), url("../../fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("../../fonts/Roboto/Roboto-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: "PF Regal Text Pro";
-  src: local("PFRegalTextPro-RegularA.woff2"), url("../fonts/PFRegal/PFRegalTextPro-RegularA.woff2") format("woff2");
+  src: local("PFRegalTextPro-RegularA.woff2"), url("../../fonts/PFRegal/PFRegalTextPro-RegularA.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -770,19 +770,19 @@ a {
 }
 
 .weather__img--clouds {
-  background-image: url(../img/clouds.svg);
+  background-image: url(../../img/clouds.svg);
 }
 
 .weather__img--rain {
-  background-image: url(../img/rain.svg);
+  background-image: url(../../img/rain.svg);
 }
 
 .weather__img--half {
-  background-image: url(../img/half.svg);
+  background-image: url(../../img/half.svg);
 }
 
 .weather__img--snow {
-  background-image: url(../img/snow.svg);
+  background-image: url(../../img/snow.svg);
 }
 
 .weather__pagination {
@@ -850,7 +850,7 @@ a {
   content: "";
   width: 18px;
   height: 8px;
-  background-image: url(../img/orange-active.svg);
+  background-image: url(../../img/orange-active.svg);
   background-repeat: no-repeat;
 }
 
@@ -877,7 +877,7 @@ a {
   transition: -webkit-transform 0.3s ease;
   transition: transform 0.3s ease;
   transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-  background-image: url(../img/input-arrow.svg);
+  background-image: url(../../img/input-arrow.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -999,7 +999,7 @@ a {
   height: 14px;
   right: 0;
   top: 0;
-  background-image: url(../img/very.svg);
+  background-image: url(../../img/very.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1552,7 +1552,7 @@ a {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(../img/hotel-marker.svg);
+  background-image: url(../../img/hotel-marker.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1667,12 +1667,12 @@ a {
 
 .preview-slider__button--next {
   left: 0;
-  background-image: url(../img/arrow-slider-right.svg);
+  background-image: url(../../img/arrow-slider-right.svg);
 }
 
 .preview-slider__button--prev {
   right: 0;
-  background-image: url(../img/arrow-slider-left.svg);
+  background-image: url(../../img/arrow-slider-left.svg);
 }
 
 .preview-slider__slider-pagination {
@@ -1790,7 +1790,7 @@ a {
           transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background-image: url(../img/eye.svg);
+  background-image: url(../../img/eye.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1876,7 +1876,7 @@ a {
 }
 
 .feedback__item--comment::before {
-  background-image: url(../img/comment.svg);
+  background-image: url(../../img/comment.svg);
 }
 
 .feedback__item--like {
@@ -1885,7 +1885,7 @@ a {
 }
 
 .feedback__item--like::before {
-  background-image: url(../img/like.svg);
+  background-image: url(../../img/like.svg);
 }
 
 .feedback__item--share {
@@ -1895,7 +1895,7 @@ a {
 .feedback__item--share::before {
   width: 12px;
   height: 12px;
-  background-image: url(../img/share.svg);
+  background-image: url(../../img/share.svg);
 }
 
 .feedback__item:hover {
@@ -1962,6 +1962,7 @@ a {
 
 .navigation {
   position: fixed;
+  display: none;
   left: 50%;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -2598,7 +2599,7 @@ main {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background-image: url(../img/better.svg);
+    background-image: url(../../img/better.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -2639,7 +2640,7 @@ main {
   }
 
   .attraction-card__button::before {
-    background-image: url(../img/route-white.svg);
+    background-image: url(../../img/route-white.svg);
     left: 20px;
   }
 
@@ -3010,7 +3011,7 @@ main {
         -ms-transform: translateX(-50%);
             transform: translateX(-50%);
     top: 15px;
-    background-image: url(../img/arrow-top.svg);
+    background-image: url(../../img/arrow-top.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
